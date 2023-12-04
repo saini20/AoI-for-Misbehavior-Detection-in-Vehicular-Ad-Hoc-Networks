@@ -19,12 +19,7 @@ def process_queue(queue):
     avg_gen_time = total_gen_time / num_packets
     return avg_gen_time, original_queue
 
-# Example usage:
 queue = [1.5778513367832585, 2.7869338215303605, 1.6510538030583066, 2.7645782396705685, 1.9588457377377502, 0.4198956156759691, 0.08627844121178424, 0.9466891885964638, 3.24252187714067, 0.041372557251223276, 1.5052226973059182, 0.6051814967929559]
-
-
-
-
 avg_gen_time, original_queue = process_queue(queue)
 print(f"Original queue of generation times: {original_queue}")
 print(f"Average age: {avg_gen_time} seconds")
