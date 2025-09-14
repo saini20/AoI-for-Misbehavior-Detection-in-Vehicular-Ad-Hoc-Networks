@@ -2,7 +2,7 @@ import random
 import math
 import time
 
-# generate random number of cars (between 1 and 10)
+# generate random number of cars (between 1 and 30)
 n=30
 num_cars = random.randint(1, n)
 
@@ -25,3 +25,4 @@ for t in gen_times:
 
    i=i+1
 print("Number of cars:", count)
+
