@@ -1,5 +1,4 @@
 import random
-import math
 import time
 
 # generate random number of cars (between 1 and 30)
@@ -15,14 +14,10 @@ count=0
 queue=[]
 for t in gen_times:
    if t<4:
-
        count=count+1
        print(t)
        time.sleep(random.randint(1,3))
-
-
-
-
    i=i+1
 print("Number of cars:", count)
+
 
